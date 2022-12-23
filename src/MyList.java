@@ -22,10 +22,6 @@ public class MyList {
         return length;
     }
 
-    public void setLength(int length) {
-        this.length = length;
-    }
-
     /***
      * prints the nodes address
      */
