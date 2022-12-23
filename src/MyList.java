@@ -66,7 +66,7 @@ public class MyList {
             tmp.setNext(this.head);
         }
 
-        this.head = tmp;
+        setHead(tmp);
 
         length++;
     }
@@ -90,7 +90,7 @@ public class MyList {
             pos.setNext(tmp);
 
         } else
-            this.head = tmp;
+            setHead(tmp);
 
         this.length++;
 
@@ -114,7 +114,7 @@ public class MyList {
 
             result = current.getData();
 
-            this.head = null;
+            setHead(null);
 
             this.length--;
 
