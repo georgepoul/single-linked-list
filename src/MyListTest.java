@@ -93,7 +93,7 @@ class MyListTest {
 
         list.addInPlace(0,1);
         list.addInPlace(1,100);
-        list.addInPlace(3,500);
+        list.addInPlace(4,500);
 
         //when
 
@@ -101,8 +101,9 @@ class MyListTest {
 
         assertEquals(list.getHead().getData(),1);
         assertEquals(list.getHead().getNext().getData(),100);
-        assertEquals(list.getHead().getNext().getNext().getData(),0);
-        assertEquals(list.getHead().getNext().getNext().getNext().getData(),500);
+        assertEquals(list.getHead().getNext().getNext().getData(),100);
+        assertEquals(list.getHead().getNext().getNext().getNext().getData(),0);
+        assertEquals(list.getHead().getNext().getNext().getNext().getNext().getData(),500);
 
     }
 }

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2e859a-d2d5-46f7-b80b-66d2bb9e01c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "MyList",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/georgepouleres/IdeaProjects/com/pouleres/sphy/monaSindedemeniLista",
+    "last_opened_file_path": "/Users/georgepouleres/IdeaProjects/com/pouleres/sphy/single-linked-list",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +77,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MyListTest.addInPlace (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="single-linked-list" />
@@ -103,6 +103,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyListTest.addInPlace (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="single-linked-list" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyListTest" />
+      <option name="METHOD_NAME" value="addInPlace" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyListTest.addInPlace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="single-linked-list" />
       <option name="PACKAGE_NAME" value="test" />
@@ -113,23 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest.removeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="single-linked-list" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyListTest" />
-      <option name="METHOD_NAME" value="removeLast" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MyListTest.addInPlace (1)" />
         <item itemvalue="JUnit.MyListTest (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyListTest" />
         <item itemvalue="JUnit.MyListTest.addInPlace" />
-        <item itemvalue="JUnit.MyListTest.removeLast" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +147,7 @@
       <workItem from="1671817884455" duration="6000" />
       <workItem from="1672160676928" duration="180000" />
       <workItem from="1673417246231" duration="2248000" />
+      <workItem from="1673434001843" duration="1905000" />
     </task>
     <servers />
   </component>

@@ -62,7 +62,8 @@ public class MyList {
 
         Node tmp = new Node(in);
 
-        if (this.head != null) {
+        if (length != 0) {
+
             tmp.setNext(this.head);
         }
 
@@ -79,7 +80,7 @@ public class MyList {
 
         Node tmp = new Node(in);
 
-        if (head != null) {
+        if (length != 0) {
 
             Node pos = this.head;
 
@@ -106,11 +107,11 @@ public class MyList {
 
         int result = -1;
 
-        if (current == null) {
+        if (length == 0) {
 
             System.out.println("List is empty");
 
-        } else if (current.getNext() == null) {
+        } else if (length == 1) {
 
             result = current.getData();
 
@@ -150,7 +151,11 @@ public class MyList {
 
         int isInplace = 0;
 
-        if (position >= 0 && position < this.length) {
+        if (position == 0) {
+
+            addFirst(value);
+
+        }else if (position > 0 && position < this.length) {
 
             while (isInplace != position -1) {
 
@@ -169,9 +174,9 @@ public class MyList {
 
             System.out.println("The value: " + value + " added in position: " + isInplace);
 
-        }else if (position > this.length - 1){
+        }else if (position > this.length){
 
-            for (int i = this.length - 1; i < position - 1; i ++){
+            for (int i = this.length; i < position - 1; i ++){
 
                 addLast(0);
             }
