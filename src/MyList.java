@@ -150,16 +150,22 @@ public class MyList {
 
         int isInplace = 0;
 
-        if (position >= 0 && position <= this.length -1) {
+        if (position >= 0 && position < this.length) {
 
-            while (isInplace != position) {
+            while (isInplace != position -1) {
 
                 current = current.getNext();
 
                 isInplace ++;
             }
 
-            current.setData(value);
+            Node newNode = new Node(value);
+
+            Node tmp = current.getNext();
+
+            current.setNext(newNode);
+
+            newNode.setNext(tmp);
 
             System.out.println("The value: " + value + " added in position: " + isInplace);
 

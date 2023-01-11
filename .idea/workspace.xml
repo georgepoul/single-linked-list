@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2e859a-d2d5-46f7-b80b-66d2bb9e01c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
     </list>
@@ -12,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +55,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "MyList",
     "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/georgepouleres/IdeaProjects/com/pouleres/sphy/monaSindedemeniLista",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +77,14 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyListTest (1)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="single-linked-list" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="single-linked-list" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,16 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest.addLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="single-linked-list" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyListTest" />
-      <option name="METHOD_NAME" value="addLast" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyListTest.removeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="single-linked-list" />
       <option name="PACKAGE_NAME" value="test" />
@@ -121,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="single-linked-list" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="single-linked-list" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyListTest (1)" />
         <item itemvalue="JUnit.MyListTest" />
         <item itemvalue="JUnit.MyListTest.addInPlace" />
         <item itemvalue="JUnit.MyListTest.removeLast" />
-        <item itemvalue="JUnit.MyListTest.addLast" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +142,11 @@
       <option name="presentableId" value="Default" />
       <updated>1671606483004</updated>
       <workItem from="1671606484842" duration="7758000" />
-      <workItem from="1671788548269" duration="12315000" />
+      <workItem from="1671788548269" duration="12573000" />
+      <workItem from="1671815600815" duration="196000" />
+      <workItem from="1671817884455" duration="6000" />
+      <workItem from="1672160676928" duration="180000" />
+      <workItem from="1673417246231" duration="2248000" />
     </task>
     <servers />
   </component>

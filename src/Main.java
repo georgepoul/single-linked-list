@@ -34,7 +34,7 @@ public class Main {
 
         System.out.println("The list length is: " + list.getLength());
 
-        list.addInPlace(9 , 100);
+        list.addInPlace(3 , 100);
 
         list.printHead();
 
